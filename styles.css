@@ -9,10 +9,6 @@ html, body {
     font-size: 18px;
   }
 
-  .logo-button-section {
-
-  }
-
   .first-container {
     background: hsl(193, 100%, 96%);
     background-image: url(images/bg-hero-mobile.svg);
@@ -177,7 +173,6 @@ html, body {
     width: 330px;
   }
 
-
   footer {
     display: flex;
     flex-direction: column;
@@ -276,8 +271,6 @@ html, body {
     cursor: pointer;
   }
 
-
-
   @media screen and (min-width: 1000px) {
 
     .first-container {
@@ -362,21 +355,25 @@ html, body {
     .titles-container {
       display: flex;
       flex-direction: column;
-      
     }
   
     .title-image {
       display: flex;
-      
     }
 
     .presentation-img {
       width: 500px;
     }
 
+    .second-container{
+      padding: 5px;
+    }
+
     .advantage-card {
       width: 90%;
+      padding: 40px;
       flex-direction: row-reverse;
+      justify-content: space-around;
     }
 
     .advantage-card:nth-child(2) {
@@ -425,7 +422,6 @@ html, body {
 
     .footer__first {
       margin-right: 50px;
-
     }
 
     .footer__info:nth-child(2) {
@@ -473,7 +469,6 @@ html, body {
       margin-right: 30px;
       margin-left: 0px;
     }
-
 
     .footer__content {
       margin-top: 200px;
