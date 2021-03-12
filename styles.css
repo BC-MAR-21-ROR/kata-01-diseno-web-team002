@@ -133,18 +133,18 @@ body {
 }
 
 .ready-card {
-  position: relative;
-  width: 350px;
-  height: 170px;
-  top: 130px;
-  background-color: white;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);
-  align-items: center;
-  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 350px;
+  height: 170px;
   margin-bottom: 50px;
+  border-radius: 20px;
+  background-color: white;
+  top: 130px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.1);
 }
 .ready-card .ready-container .ready__title {
   font-family: "Poppins", sans-serif;
@@ -204,8 +204,10 @@ footer .icon-list {
   justify-content: center;
   margin-bottom: 25px;
   margin-top: 50px;
-  padding-inline-start: 0px;
-  padding-inline-end: 40px;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+  -webkit-padding-end: 40px;
+          padding-inline-end: 40px;
 }
 footer .icon-list .icon {
   margin-left: 30px;
@@ -327,18 +329,18 @@ footer .footer__content {
     margin-left: 15%;
   }
   .advantages-section .ready-card {
-    position: relative;
-    width: 700px;
-    height: 250px;
-    top: 180px;
-    background-color: white;
-    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 40px 0 rgba(0, 0, 0, 0.1);
-    align-items: center;
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 700px;
+    height: 250px;
     margin-bottom: 50px;
+    border-radius: 20px;
+    background-color: white;
+    top: 180px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 40px 0 rgba(0, 0, 0, 0.1);
   }
   .advantages-section .ready-card .ready-container {
     margin-left: 15%;
@@ -403,8 +405,10 @@ footer .footer__content {
   footer .icon-list {
     margin-top: 30px;
     justify-content: flex-start;
-    padding-inline-end: 0px;
-    padding-inline-start: 0px;
+    -webkit-padding-end: 0px;
+            padding-inline-end: 0px;
+    -webkit-padding-start: 0px;
+            padding-inline-start: 0px;
   }
   footer .icon-list .icon {
     margin-right: 30px;
@@ -413,6 +417,4 @@ footer .footer__content {
   footer .footer__content {
     margin-top: 200px;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
