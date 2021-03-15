@@ -44,8 +44,8 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 - Publicación de la página en Netlify, Github Pages o Vercel
 - Actualizar la sección **Página Web** con la dirección para el acceso a la página web publicada
 
-## Página web
-Agrega aquí un enlace a tu página web publicada.
+## Página web 
+- [kata-01-diseno-web-team002](https://bc-mar-21-ror.github.io/kata-01-diseno-web-team002/)
   
 ## Resources
 
